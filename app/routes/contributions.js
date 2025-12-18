@@ -6,7 +6,7 @@ const {
 /* The ContributionsHandler must be constructed with a connected db */
 function ContributionsHandler(db) {
     "use strict";
-
+console.log('abc')
     const contributionsDAO = new ContributionsDAO(db);
 
     this.displayContributions = (req, res, next) => {
