@@ -36,4 +36,5 @@ for(const page of pages) {
     });
 }
 
+
 module.exports = router;
