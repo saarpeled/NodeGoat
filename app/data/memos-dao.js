@@ -17,12 +17,17 @@ function MemosDAO(db) {
       memo,
       timestamp: new Date(),
     };
-
+    //this is a test comment
+    //this is another on
+    //hi
+    //bye  //this is a test comment
+    //this is another on
+    //hi
+    //bye  //this is a test comment
+    //this is another on
+    //hi
+    //bye
     memosCol.insert(memos, (err, result) =>
-      //this is a test comment
-      //this is another on
-      //hi
-      //bye
       !err ? callback(null, result) : callback(err, null)
     );
   };
