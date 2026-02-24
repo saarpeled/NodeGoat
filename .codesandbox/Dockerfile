@@ -1,5 +1,5 @@
 # CodeSandbox supports debian & ubuntu based images
-FROM node:16
+FROM node:25
  
 # Example; install htop by default
 RUN apt update -y && apt install -y htop
